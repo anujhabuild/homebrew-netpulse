@@ -1,10 +1,10 @@
 # homebrew-netpulse
 
-Homebrew tap for [NetPulse](https://github.com/habuildserver/netpulse), a macOS menu bar network bandwidth monitor.
+Homebrew tap for [NetPulse](https://github.com/anujhabuild/netpulse), a macOS menu bar network bandwidth monitor.
 
 ## Install
 
 ```
-brew tap habuildserver/netpulse
+brew tap anujhabuild/netpulse
 brew install --cask netpulse
 ```
