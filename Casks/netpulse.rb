@@ -11,9 +11,7 @@ cask "netpulse" do
 
   app "NetPulse.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.anujsingh.netpulse.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.anujsingh.netpulse.plist"
 
   caveats do
     <<~EOS
