@@ -7,7 +7,7 @@ cask "netpulse" do
   desc "Menu bar network bandwidth monitor showing live upload/download speed"
   homepage "https://github.com/anujhabuild/netpulse"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "NetPulse.app"
 
