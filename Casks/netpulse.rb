@@ -4,7 +4,7 @@ cask "netpulse" do
 
   url "https://github.com/anujhabuild/netpulse/releases/download/v#{version}/NetPulse.zip"
   name "NetPulse"
-  desc "Menu bar network bandwidth monitor showing live upload/download speed"
+  desc "Lightweight menu bar bandwidth monitor with zero network overhead"
   homepage "https://github.com/anujhabuild/netpulse"
 
   depends_on macos: :ventura
